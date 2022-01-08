@@ -5,17 +5,25 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Animais Fantásticos</title>
-		<link rel="stylesheet" href="style.css">
+
+		<!-- FONTES -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+		<!-- ESTILOS -->
+		<link rel="stylesheet" href="./assets/css/reset.css">
+		<link rel="stylesheet" href="./assets/css/style.css">
 	</head>
 
 	<body>
 		<header class="cabecalho">
-			<nav class="navegacao">
-				<ul class="navegacao__lista">
-					<li><a href="#animais">Animais</a></li>
-					<li><a href="#faq"></a>FAQ</li>
-					<li><a href="#contato"></a>Contato</li>
-					<li><a href="https://github.com/FernandNsp">Dev →</a></li>
+			<nav class="cabecalho__navegacao">
+				<ul class="cabecalho__lista">
+					<li><a href="#animais" class="cabecalho__link">Animais</a></li>
+					<li><a href="#faq" class="cabecalho__link">FAQ</a></li>
+					<li><a href="#contato" class="cabecalho__link">Contato</a></li>
+					<li><a href="https://github.com/FernandNsp" class="cabecalho__link">Dev →</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -87,23 +95,23 @@
 			<h3 class="faq__titulo">FAQ</h3>
 
 			<dl class="faq__lista">
-				<dt>Qual a idade dos animais?</dt>
-				<dd>
+				<dt class="faq__lista--titulo">Qual a idade dos animais?</dt>
+				<dd class="faq__lista--texto">
 					As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.
 				</dd>
 				
-				<dt>Eles são fantásticos?</dt>
-				<dd>
+				<dt class="faq__lista--titulo">Eles são fantásticos?</dt>
+				<dd class="faq__lista--texto">
 					Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
 				</dd>
 				
-				<dt>Qual a diferença?</dt>
-				<dd>
+				<dt class="faq__lista--titulo">Qual a diferença?</dt>
+				<dd class="faq__lista--texto">
 					As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.
 				</dd>
 				
-				<dt>Como proteger?</dt>
-				<dd>
+				<dt class="faq__lista--titulo">Como proteger?</dt>
+				<dd class="faq__lista--texto">
 					Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
 				</dd>
 			</dl>
