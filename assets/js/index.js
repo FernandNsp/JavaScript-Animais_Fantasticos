@@ -20,3 +20,14 @@ function initTabAnimals(){
 	}
 }
 initTabAnimals()
+
+const accordionFaq = document.querySelectorAll('.js-accordion dt')
+
+function activeAccordion(){
+	this.classList.add('ativo')
+	this.nextElementSibling.classList.add('ativo')
+}
+
+accordionFaq.forEach((item) => {
+	item.addEventListener('click', activeAccordion)
+})
