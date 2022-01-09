@@ -133,6 +133,7 @@ body{
 	margin-top: 2rem;
 	margin-bottom: .5rem;
 	color: var(--secundaria);
+	cursor: pointer;
 }
 
 .faq__lista--titulo::before {
@@ -243,7 +244,7 @@ body{
 	}
 	to{
 		opacity: 1;
-		max-height: 250px;
+		max-height: 200px;
 	}
 }
 
