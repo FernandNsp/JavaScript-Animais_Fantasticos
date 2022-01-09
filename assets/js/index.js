@@ -24,8 +24,8 @@ initTabAnimals()
 const accordionFaq = document.querySelectorAll('.js-accordion dt')
 
 function activeAccordion(){
-	this.classList.add('ativo')
-	this.nextElementSibling.classList.add('ativo')
+	this.classList.toggle('ativo')
+	this.nextElementSibling.classList.toggle('ativo')
 }
 
 accordionFaq.forEach((item) => {
